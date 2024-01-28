@@ -14,7 +14,7 @@ profiles:
     content: about_crombie.md
     image_circular: true # crops the image to make it circular
     more_info: >
-    <a href="mailto:tcrombie@fit.edu">tcrombie@fit.edu</a>
+      <p><a href="mailto:tcrombie@fit.edu">tcrombie@fit.edu</a></p>
       <p>123 your address street</p>
       <p>Your City, State 12345</p>
 ---
