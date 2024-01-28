@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Department of Biomedical Engineering and Sciences</a>
+subtitle: <a href='https://www.fit.edu/biomedical-engineering-and-science/'>Department of Biomedical Engineering and Sciences</a>
 
 news: true # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
