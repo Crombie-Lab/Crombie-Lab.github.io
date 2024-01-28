@@ -1,7 +1,6 @@
 # -----------------------------------------------------------------------------
 # Site settings
 # -----------------------------------------------------------------------------
-
 title: Crombie Lab # the website title (if blank, full name will be used instead)
 email: you@example.com
 description: > The Crombie lab at Florida Institute of Technology
