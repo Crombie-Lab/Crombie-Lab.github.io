@@ -8,4 +8,4 @@ nav_order: 6
 ---
 
 **Spring 2024:**
-1. Bioinformatics BIO4150 | BIO5522
+Bioinformatics BIO4150 | BIO5522
