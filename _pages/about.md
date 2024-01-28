@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Department of Biomedical Engineering and Sciences
+subtitle: <a href='#'>Department of Biomedical Engineering and Sciences</a>
 
 news: true # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
