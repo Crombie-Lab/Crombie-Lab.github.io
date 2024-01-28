@@ -13,5 +13,8 @@ profiles:
     image: 2023_crombie_head.jpg
     content: about_crombie.md
     image_circular: true # crops the image to make it circular
-    more_info: 
+    more_info: >
+      <p><span style="white-space:nowrap;"><i class="glyphicon glyphicon-envelope"></i> <a href="mailto:{{ m.email }}">{{ m.email }}</a></span><br /></p>
+      <p>123 your address street</p>
+      <p>Your City, State 12345</p>
 ---
