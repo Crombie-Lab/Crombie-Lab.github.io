@@ -8,6 +8,7 @@ nav_order: 8
 display_categories: [work, fun]
 horizontal: false
 ---
+---
 
 <div class="row">
     <div class="col-sm">
