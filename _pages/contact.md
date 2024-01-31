@@ -2,24 +2,23 @@
 layout: page
 title: contact
 permalink: /contacts/
-description: La
+description:
 nav: true
 nav_order: 7
 display_categories: [work, fun]
 horizontal: false
 ---
 
-#### Positions
+### Positions
 
 We are currently interested in recruiting motivated undergraduates and graduate students.
 
 `Undergraduates`: Please e-mail Dr. Crombie with your resume and a paragraph describing your specific interest in the lab. Undergraduates should be willing to devote a minimum of 10 hours a week during the semester.
 
 `Graduate Students`: Prospective MS or PhD students, please email Dr. Crombie describing your interest in the lab and explore admissions to the Cell and Molecular Biology Program offered through Florida Tech's [Biomedical Sciences program](https://www.fit.edu/biomedical-engineering-and-science/biomedical-science/). 
-        
-`Postdocs`: please contact the PI directly with your CV and a description of project(s) you would like to pursue in our lab. Prospective postdocs are strongly encouraged to seek out potential sources of fellowship funding.
 
 ---
+### Contacts
 <div class="row">
     <div class="col-sm">
     </div>
@@ -27,18 +26,18 @@ We are currently interested in recruiting motivated undergraduates and graduate 
         📞 (321) 674-7203 <br>
         ✉️ <a href="mailto:tcrombie@fit.edu">tcrombie@fit.edu</a>
         <br> <br>
-        `Shipping Address`<br>
-        &nbsp;&nbsp;&nbsp;&nbsp; Crombie Lab <br>
-        &nbsp;&nbsp;&nbsp;&nbsp; Florida Institute of Technology <br>
-        &nbsp;&nbsp;&nbsp;&nbsp; Dept. of Biomedical Engineering and Sciences <br>
-        &nbsp;&nbsp;&nbsp;&nbsp; 150 W. University Blvd <br>
-        &nbsp;&nbsp;&nbsp;&nbsp; Melbourne, FL 32901 <br>
+        <h4>Shipping Address</h4>
+        Crombie Lab <br>
+        Florida Institute of Technology <br>
+        Dept. of Biomedical Engineering and Sciences <br>
+        150 W. University Blvd <br>
+        Melbourne, FL 32901 <br>
         <br> <br>
-        `Lab Location`<br>
+        <h4>Lab Location</h4>
         🧪 Lab: HSR 343; Office: HSR 342<br>
-        &nbsp;&nbsp;&nbsp;&nbsp; Gordon L. Nelson Health Sciences Building<br>
-        &nbsp;&nbsp;&nbsp;&nbsp; 3049 Country Club Rd <br>
-        &nbsp;&nbsp;&nbsp;&nbsp; Melbourne, FL 32901<br>
+        Gordon L. Nelson Health Sciences Building<br>
+        3049 Country Club Rd <br>
+        Melbourne, FL 32901<br>
     </div>
     <div class="col-sm-7">
         <img class="img-fluid z-depth-1 rounded" src="../assets/img/HSR_building exterior.png" width="512" height="341" alt="building">
