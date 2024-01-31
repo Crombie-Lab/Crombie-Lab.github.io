@@ -16,16 +16,16 @@ horizontal: false
         📞 (321) 674-7203 <br>
         ✉️ <a href="mailto:tcrombie@fit.edu">tcrombie@fit.edu</a><br>
         🏢 Office: HSR 342<br>
-        🧪 Lab: HSR 343
-        <br> <br>
+        🧪 Lab: HSR 343<br>
+        <br>
         <h4>Shipping Address</h4>
         Crombie Lab <br>
-        Florida Institute of Technology <br>
+        Florida Institute of Technology<br>
         150 W. University Blvd <br>
         Melbourne, FL 32901 <br>
-        <br> <br>
+        <br>
         <h4>Lab Building</h4>
-        Gordon L. Nelson Health Sciences<br>
+        Gordon Nelson Health Sciences<br>
         3049 Country Club Rd <br>
         Melbourne, FL 32901<br>
     </div>
