@@ -19,11 +19,12 @@ horizontal: false
         🏢 Office: HSR 342<br>
         🧪 Lab: HSR 343<br>
         <br>
-        <h4>Shipping Address</h4>
-        Crombie Lab <br>
-        Florida Institute of Technology<br>
-        150 W. University Blvd <br>
-        Melbourne, FL 32901 <br>
+        <h4>Shipping Address</h4> 
+        Crombie Lab<br>
+        Florida Institute of Tech<br>
+        150 W. University Blvd<br>
+        Melbourne, FL 32901<br>
+        500OLS Rm 101<br>
         <br>
         <h4>Lab Building</h4>
         Gordon Nelson Health Sciences<br>
