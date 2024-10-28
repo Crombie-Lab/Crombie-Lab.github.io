@@ -15,4 +15,12 @@ profiles:
     image_circular: true # crops the image to make it circular
     more_info: >
       <p><a href="mailto:tcrombie@fit.edu">tcrombie@fit.edu</a></p>
+
+
+  - align: left
+    image: ![Rohan](../assets/img/Fall2024_RohanS.png)
+    content: about_Rohan.md
+    image_circular: true
+    more_info: >
+
 ---
