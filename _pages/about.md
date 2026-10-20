@@ -22,6 +22,6 @@ We are currently interested in recruiting motivated undergraduates and graduate 
 
 `Undergraduates`: Please e-mail Dr. Crombie with your resume and a paragraph describing your specific interest in the lab. Undergraduates should be willing to devote a minimum of 10 hours a week during the semester.
 
-`Graduate Students`: Prospective MS or PhD students, please email Dr. Crombie describing your interest in the lab and explore admissions to the Cell and Molecular Biology Program offered through Florida Tech's [Biomedical Sciences program](https://www.fit.edu/biomedical-engineering-and-science/biomedical-science/). 
+`Graduate Students`: Prospective MS or PhD students, please email Dr. Crombie describing your interest in the lab and explore admissions to the Cell and Molecular Biology Program offered through Florida Tech's [Biomedical Sciences program](https://www.fit.edu/biomedical-engineering-and-science/biomedical-science/).
 
 ---

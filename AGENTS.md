@@ -59,21 +59,44 @@ These descriptions are editorial guidance, not evidence for particular findings 
 
 ## Validation and reporting
 
-- Run `git diff --check` and review `git diff` for unexpected changes.
-- Check YAML front matter, project ordering, navigation, internal links, and image references.
-- If Ruby/Bundler and required gems are already installed, use `bundle check`, then (where cluster policy permits) `bundle exec jekyll build` to validate the site.
-- If dependencies are absent, report what is missing; ask before installing packages or accessing the network.
-- If a local build is infeasible, perform static checks and explain what was not tested.
-- End with a concise summary of changed files, tests run and their outcomes, and any remaining publication steps. Do not claim a site is deployed merely because local checks pass.
+- Follow the repository's existing formatting conventions and GitHub Actions checks, including Prettier.
+- Before completing changes, run applicable formatting checks, `git diff --check`, and Jekyll validation when available.
+- Fix formatting and validation errors introduced by your changes Avoid unrelated modifications.
+- If validation tools are unavailable, report the limitation rather than installing dependencies without approval.
+- When a pull request fails CI, investigate the error and correct issues related to your changes.
+- Summarize modifications, validation results, and any outstanding issues before recommending a merge.
+
+## Local development environment
+
+- On AI-Panther, use the existing Conda environment at
+  `$HOME/software/conda_envs/cl-web` for website development
+  and validation.
+- Use this environment for Node.js, npm, Prettier, Ruby,
+  Bundler, and Jekyll commands.
+- Prefer `conda run -p "$HOME/software/conda_envs/cl-web"`
+  to execute commands. Do not assume the environment is
+  already activated in the Codex shell.
+- Before running validation, verify that the environment
+  and required dependencies are available.
+- Follow the repository's existing dependency manifests
+  and lockfiles. Do not upgrade dependencies unnecessarily.
+- If dependencies are missing, report what is required
+  and request approval before installing them.
+- Do not modify other Conda environments or install
+  software system-wide.
+- Conda provides dependency isolation, not filesystem
+  security. Continue following the configured Codex
+  sandbox and approval requirements.
 
 ## AI-Panther and security boundaries
 
-- This is a shared HPC system. Use the login node for lightweight editing/inspection only. Use an approved Slurm allocation or interactive development session for substantial builds, installs, or other resource-intensive work, following local cluster policy.
-- Never submit Slurm jobs, allocate GPUs, start persistent background processes, install system packages, or change shared HPC settings without explicit instruction.
-- Stay within this Git repository for task files. Do not access other lab projects, mounted NAS data, SSH keys, token stores, cluster credentials, or another user's files.
-- Never run privileged commands (`sudo`), pipe internet scripts into a shell, disable security features, or bypass the Codex sandbox.
-- Do not modify Codex sandbox configuration, GitHub Actions, Git remotes, secrets, or access permissions unless specifically requested.
-- Use minimal commands and respect HPC resource limits; do not assume local Docker, root access, or outbound network access.
+- AI-Panther is a shared HPC system. Use login nodes for lightweight editing and inspection only. Run resource-intensive operations in an approved Slurm allocation or interactive development session, following cluster policies.
+- Do not submit Slurm jobs, allocate GPUs, start persistent background processes, install system packages, or modify shared HPC settings without explicit authorization.
+- Keep project work within this Git repository. Do not access unrelated lab projects, mounted NAS data, SSH keys, credentials, secrets, or other users' files.
+- Do not run privileged commands (sudo), execute unverified remote scripts, or disable system security protections.
+- Use the configured Codex sandbox whenever possible. If sandbox initialization fails, explain the issue and request explicit user approval before executing a specific command outside the sandbox. Approval applies only to that command and does not authorize subsequent unsandboxed operations.
+- Do not modify Codex sandbox settings, GitHub Actions workflows, Git remotes, secrets, or access permissions unless the task specifically requires it or the user authorizes it.
+- Use commands appropriate to the task, minimize unnecessary resource consumption, and do not assume Docker, root access, or unrestricted network connectivity are available.
 
 ## Publication boundary
 

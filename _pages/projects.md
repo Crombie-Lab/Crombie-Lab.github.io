@@ -8,7 +8,7 @@ nav_order: 3
 horizontal: false
 ---
 
-The Crombie Lab investigates how natural genetic variation shapes organismal responses to environmental stressors and phenotypes associated with neurodegenerative disease. Using *Caenorhabditis* nematodes as model organisms, we combine quantitative genetics, experimental evolution, molecular biology, and high-throughput phenotyping to better understand the genetic basis of complex traits.
+The Crombie Lab investigates how natural genetic variation shapes organismal responses to environmental stressors and phenotypes associated with neurodegenerative disease. Using _Caenorhabditis_ nematodes as model organisms, we combine quantitative genetics, experimental evolution, molecular biology, and high-throughput phenotyping to better understand the genetic basis of complex traits.
 
 <!-- pages/projects.md -->
 <div class="projects">
