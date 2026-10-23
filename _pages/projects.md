@@ -1,10 +1,10 @@
 ---
 layout: page
-title: research projects
+title: research
 permalink: /projects/
 description: Research programs in the Crombie Lab.
 nav: true
-nav_order: 3
+nav_order: 2
 horizontal: false
 ---
 
