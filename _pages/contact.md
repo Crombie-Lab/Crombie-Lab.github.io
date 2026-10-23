@@ -4,7 +4,7 @@ title: contact
 permalink: /contacts/
 description:
 nav: true
-nav_order: 8
+nav_order: 6
 display_categories: [work, fun]
 horizontal: false
 ---
