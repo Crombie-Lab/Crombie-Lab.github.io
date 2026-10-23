@@ -211,6 +211,97 @@ blockquote {
   }
 }
 
+.people-page {
+  .people-section-title {
+    border-bottom: 1px solid var(--global-divider-color);
+    margin-bottom: 1.5rem;
+    margin-top: 2.75rem;
+    padding-bottom: 0.6rem;
+  }
+
+  .people-section-title:first-child {
+    margin-top: 1.5rem;
+  }
+
+  .person-profile {
+    display: grid;
+    grid-template-columns: minmax(180px, 30%) minmax(0, 1fr);
+    column-gap: 2rem;
+    align-items: start;
+    border-bottom: 1px solid var(--global-divider-color);
+    margin-bottom: 1.5rem;
+    padding-bottom: 2rem;
+  }
+
+  .profile-photo,
+  .profile-biography {
+    min-width: 0;
+  }
+
+  .profile-photo {
+    figure {
+      margin-bottom: 0.75rem;
+    }
+
+    img {
+      width: 100%;
+    }
+  }
+
+  .profile-biography > :first-child {
+    margin-top: 0;
+  }
+
+  .more-info {
+    font-family: monospace;
+    line-height: 1.5;
+
+    p {
+      display: block;
+      margin: 0;
+    }
+
+    strong {
+      color: var(--global-text-color);
+    }
+  }
+
+  .former-members {
+    background-color: var(--global-card-bg-color);
+    border: 1px solid var(--global-divider-color);
+    border-radius: 0.25rem;
+    margin-top: 3rem;
+    padding: 1.5rem 1.75rem;
+
+    > h2:first-child {
+      border-bottom: 1px solid var(--global-divider-color);
+      margin-top: 0;
+      padding-bottom: 0.6rem;
+    }
+  }
+}
+
+@media (max-width: 575px) {
+  .people-page {
+    .people-section-title {
+      font-size: 1.6rem;
+    }
+
+    .person-profile {
+      grid-template-columns: 1fr;
+      row-gap: 1rem;
+    }
+
+    .profile-photo {
+      max-width: 260px;
+    }
+
+    .former-members {
+      padding: 1rem;
+    }
+  }
+}
+
 .post-description {
   margin-bottom: 2rem;
   font-size: 0.875rem;
@@ -591,6 +682,11 @@ footer.sticky-bottom {
 // Projects
 
 .projects {
+  .card-title {
+    font-size: 1.75rem;
+    line-height: 1.2;
+  }
+
   a {
     text-decoration: none;
 
@@ -621,6 +717,44 @@ footer.sticky-bottom {
   .grid-item {
     width: 250px;
     margin-bottom: 10px;
+  }
+
+  .projects-grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 1rem;
+
+    .grid-sizer {
+      display: none;
+    }
+
+    .grid-item {
+      display: flex;
+      width: auto;
+      margin-bottom: 0;
+
+      > a,
+      .card {
+        display: flex;
+        width: 100%;
+      }
+
+      .card {
+        height: 100%;
+      }
+    }
+  }
+
+  @media (max-width: 767px) {
+    .projects-grid {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+  }
+
+  @media (max-width: 575px) {
+    .projects-grid {
+      grid-template-columns: 1fr;
+    }
   }
 
   h2.category {
@@ -655,7 +789,7 @@ footer.sticky-bottom {
   }
 
   h2.bibliography {
-    color: var(--global-divider-color);
+    color: var(--global-text-color-light);
     border-top: 1px solid var(--global-divider-color);
     padding-top: 1rem;
     margin-top: 2rem;

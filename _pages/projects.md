@@ -1,13 +1,14 @@
 ---
 layout: page
-title: projects
+title: research projects
 permalink: /projects/
-description: A growing collection of your cool projects.
+description: Research programs in the Crombie Lab.
 nav: true
 nav_order: 3
-display_categories: [work, fun]
 horizontal: false
 ---
+
+The Crombie Lab investigates how natural genetic variation shapes organismal responses to environmental stressors and phenotypes associated with neurodegenerative disease. Using _Caenorhabditis_ nematodes as model organisms, we combine quantitative genetics, experimental evolution, molecular biology, and high-throughput phenotyping to better understand the genetic basis of complex traits.
 
 <!-- pages/projects.md -->
 <div class="projects">
@@ -29,7 +30,7 @@ horizontal: false
     </div>
   </div>
   {% else %}
-  <div class="grid">
+  <div class="projects-grid">
     {% for project in sorted_projects %}
       {% include projects.liquid %}
     {% endfor %}
@@ -55,7 +56,7 @@ horizontal: false
     </div>
   </div>
   {% else %}
-  <div class="grid">
+  <div class="projects-grid">
     {% for project in sorted_projects %}
       {% include projects.liquid %}
     {% endfor %}
