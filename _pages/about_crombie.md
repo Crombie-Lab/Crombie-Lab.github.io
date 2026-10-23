@@ -1,1 +1,1 @@
-I'm interested in quantitative genetics.
+Dr. Crombie is an Assistant Professor of Biomedical Sciences at Florida Tech specializing in evolutionary and quantitative genetics. His research combines genomics, high-throughput phenotyping, and genetic mapping in _Caenorhabditis_ nematodes to investigate how natural genetic variation influences biomedically relevant traits.
