@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Research Projects
+title: research projects
 permalink: /projects/
 description: Research programs in the Crombie Lab.
 nav: true
@@ -30,7 +30,7 @@ The Crombie Lab investigates how natural genetic variation shapes organismal res
     </div>
   </div>
   {% else %}
-  <div class="grid">
+  <div class="projects-grid">
     {% for project in sorted_projects %}
       {% include projects.liquid %}
     {% endfor %}
@@ -56,7 +56,7 @@ The Crombie Lab investigates how natural genetic variation shapes organismal res
     </div>
   </div>
   {% else %}
-  <div class="grid">
+  <div class="projects-grid">
     {% for project in sorted_projects %}
       {% include projects.liquid %}
     {% endfor %}

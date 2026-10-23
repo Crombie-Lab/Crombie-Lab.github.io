@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Natural Genetic Variation in Pesticide Susceptibility
-description: We use genetically diverse <i>C. elegans</i> strains, quantitative behavioral assays, and genetic mapping to investigate natural variation in responses to chlorfenapyr, pyrethroids, and chemical mixtures.
+title: Natural Variation in Pesticide Susceptibility
+description: We use genetically diverse <i>C. elegans</i> strains, quantitative behavioral assays, and genetic mapping to investigate natural variation in responses to various environmental toxicants.
 importance: 1
 ---
 

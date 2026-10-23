@@ -17,8 +17,8 @@ horizontal: false
     <div class="col-sm-4">
         📞 (321) 674-7203 <br>
         ✉️ <a href="mailto:tcrombie@fit.edu">tcrombie@fit.edu</a><br>
-        🏢 Office: HSR 342<br>
-        🧪 Lab: HSR 343<br>
+        🏢 Office: 505HSR 336<br>
+        🧪 Lab: 505HSR 343<br>
         <br>
         <h4>Shipping Address</h4> 
         Crombie Lab<br>
@@ -28,12 +28,12 @@ horizontal: false
         500OLS Rm 101<br>
         <br>
         <h4>Lab Building</h4>
-        Gordon Nelson Health Sciences<br>
-        3049 Country Club Rd <br>
+        Bioengineering and Sciences Building<br>
+        3049 Country Club Rd<br>
         Melbourne, FL 32901<br>
     </div>
     <div class="col-sm-7">
-        <img class="img-fluid z-depth-1 rounded" src="../assets/img/HSR_building exterior.png" width="550" height="366" alt="building">
+        <img class="img-fluid z-depth-1 rounded" src="../assets/img/20261021_505HSR_building.png" width="550" height="366" alt="building">
     </div>
     <div class="col-sm">
     </div>

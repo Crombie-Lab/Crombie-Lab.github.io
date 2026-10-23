@@ -1,0 +1,1 @@
+Kelsey Fox is a senior double-majoring in Genomics and Molecular Genetics and Marine Biology at Florida Tech. Her research focuses on natural genetic diversity in _Caenorhabditis_, including the collection and characterization of wild isolates and genetic variation in insecticide susceptibility.

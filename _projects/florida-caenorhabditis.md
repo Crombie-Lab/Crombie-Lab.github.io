@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Natural Diversity and Ecology of Florida <i>Caenorhabditis</i> Nematodes
+title: Diversity and Ecology of Florida <i>Caenorhabditis</i> Nematodes
 description: We combine field collections across Florida with species identification, population genomics, ecological metadata, and <code>ecoLinkR</code> development to study natural diversity in <i>Caenorhabditis</i>.
 importance: 3
 ---

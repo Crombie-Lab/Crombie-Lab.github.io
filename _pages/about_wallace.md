@@ -1,0 +1,1 @@
+Brianna Wallace is a second-year Ph.D. student in Cell and Molecular Biology at Florida Tech. Her research uses _C. elegans_ to investigate how natural genetic variation influences behavioral phenotypes and susceptibility to environmental toxicants.

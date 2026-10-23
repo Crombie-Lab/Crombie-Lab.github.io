@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Natural Genetic Modifiers of Neurodegenerative Disease
-description: Using chemically induced and transgenic <i>C. elegans</i> models, we examine how natural genetic backgrounds modify neurodegeneration-associated behavioral and neuronal phenotypes.
+title: Genetic Modifiers of Neurodegenerative Disease
+description: Using chemically induced and transgenic <i>C. elegans</i> models, we examine how genetic background modifies neurodegeneration-associated behavioral and neuronal phenotypes.
 importance: 2
 ---
 
